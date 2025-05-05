@@ -13,6 +13,7 @@ exports.subschemas = node => {
 }
 
 exports.anchorref = anchor => "#"+anchor.replace(/[\.\-\/]/gm,"") 
+exports.anchor = anchor => anchor.replace(/[\.\-\/]/gm,"") 
 
 exports.or = function(a, b) {
 	return a || b;
