@@ -1,7 +1,7 @@
 {
-  "name": "@molfar/jsonschema2mk",
+  "name": "@sparrow/jsonschema2mk",
   "version": "1.3.4",
-  "description": "JSON schema to markdown generator",
+  "description": "JSON schema to markdown docs",
   "main": "index.js",
   "bin": "cli.js",
   "dependencies": {
@@ -11,10 +11,10 @@
     "minimist": "^1.2.5"
   },
   "devDependencies": {},
-  "homepage": "https://github.com/wdc-molfar/jsonschema2mk",
+  "homepage": "https://github.com/SparrowAcst/jsonschema2mk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wdc-molfar/jsonschema2mk.git"
+    "url": "https://github.com/SparrowAcst/jsonschema2mk.git"
   },
   "scripts": {
     "test": "./test/test.sh"
